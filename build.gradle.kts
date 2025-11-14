@@ -57,6 +57,8 @@ dependencies {
 
     testImplementation("net.datafaker:datafaker:2.5.2")
     implementation("net.datafaker:datafaker:2.5.2")
+
+    implementation("com.auth0:java-jwt:4.5.0")
 }
 
 tasks.withType<Test> {

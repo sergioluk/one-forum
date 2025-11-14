@@ -18,3 +18,8 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     create-schemas: true
     enabled: false
+
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:my-secret-key}
